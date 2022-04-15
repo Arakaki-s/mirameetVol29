@@ -29,12 +29,6 @@ export default new Vuex.Store({
     // 商品リスト初期化
     clearItem (state) {
       state.itemList = []
-    },
-    setProductName (state, productName) {
-      state.productName = productName
-    },
-    setQuanitiy (state, quanitiy) {
-      state.quanitiy = quanitiy
     }
   },
   actions: {
